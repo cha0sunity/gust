@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- <header>
+
+  </header> -->
+  <main>
+    <div class="container-fluid containerBuffer">
+      <div class="row">
+          <div class="btn-group" role="group" data-bs-toggle="buttons">
+              <div class="col">
+                  <label class="btn btn-primary buttonStyle almostFill toggleColor">
+                      <input type="checkbox" class="me-2" id="rage" autocomplete="off"> Rage
+                  </label>
+              </div>
+              <div class="col">
+                  <label class="btn btn-primary buttonStyle almostFill">
+                      <input type="checkbox" class="me-2" id="divineFury" autocomplete="off"> Divine Fury
+                  </label>
+              </div>
+              <div class="col">
+                  <label class="btn btn-primary buttonStyle almostFill">
+                      <input type="checkbox" class="me-2" id="greatWeaponMaster" autocomplete="off"> GWM
+                  </label>
+              </div>
+            </div>
+          </div>
+    </div>
+
+          
+    <div class="container-fluid containerBuffer">
+      <div class="row">
+          <div class="btn-group" role="group" data-bs-toggle="buttons">
+              <div class="col">
+                <label class="btn btn-primary buttonStyle almostFill">
+                    <input type="radio" class="me-2" name="adv" id="standard" autocomplete="off" checked> Standard
+                </label>
+              </div>
+              <div class="col">
+                <label class="btn btn-primary buttonStyle almostFill">
+                    <input type="radio" class="me-2" name="adv" id="advantage" autocomplete="off"> Advantage
+                </label>
+              </div>
+              <div class="col">
+                <label class="btn btn-primary buttonStyle almostFill">
+                    <input type="radio" class="me-2" name="adv" id="disadvantage" autocomplete="off"> Disadvantage
+                </label>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="container-fluid containerBuffer">
+          <div class="row">
+            <div class="input-group">
+              <div class="col">
+                <div class="selectContainer">
+                  <select class="form-select" aria-label="Default select example" id="weapons" autocomplete="off">
+                    <option value="" disabled selected>Weapon</option>
+                    <option value="8">Battleaxe</option>
+                    <option value="1">Blowgun</option>
+                    <option value="4">Club</option>
+                    <option value="66">Cookie</option>
+                    <option value="6">Crossbow, hand</option>
+                    <option value="10">Crossbow, heavy</option>
+                    <option value="8">Crossbow, light</option>
+                    <option value="4">Dagger</option>
+                    <option value="4">Dart</option>
+                    <option value="8">Flail</option>
+                    <option value="10">Glaive</option>
+                    <option value="12">Greataxe</option>
+                    <option value="8">Greatclub</option>
+                    <option value="66">Greatsword</option>
+                    <option value="10">Halberd</option>
+                    <option value="6">Handaxe</option>
+                    <option value="6">Javelin</option>
+                    <option value="12">Lance</option>
+                    <option value="4">Light hammer</option>
+                    <option value="8">Longbow</option>
+                    <option value="8">Longsword</option>
+                    <option value="6">Mace</option>
+                    <option value="66">Maul</option>
+                    <option value="8">Morningstar</option>
+                    <option value="10">Pike</option>
+                    <option value="6">Quarterstaff</option>
+                    <option value="8">Rapier</option>
+                    <option value="6">Scimitar</option>
+                    <option value="6">Shortbow</option>
+                    <option value="6">Shortsword</option>
+                    <option value="4">Sickle</option>
+                    <option value="4">Sling</option>
+                    <option value="6">Spear</option>
+                    <option value="6">Trident</option>
+                    <option value="8">Warhammer</option>
+                    <option value="8">War pick</option>
+                    <option value="4">Whip</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col">
+                <div class="selectContainer">
+                  <select class="form-select" aria-label="Default select example" id="level" autocomplete="off">
+                    <option value="" disabled selected>Level</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col">
+                <div class="selectContainer">
+                  <select class="form-select" aria-label="Default select example" id="strength" autocomplete="off">
+                    <option value="" disabled selected>Strength</option>
+                    <option value="-5">1</option>
+                    <option value="-4">2</option>
+                    <option value="-4">3</option>
+                    <option value="-3">4</option>
+                    <option value="-3">5</option>
+                    <option value="-2">6</option>
+                    <option value="-2">7</option>
+                    <option value="-1">8</option>
+                    <option value="-1">9</option>
+                    <option value="0">10</option>
+                    <option value="0">11</option>
+                    <option value="1">12</option>
+                    <option value="1">13</option>
+                    <option value="2">14</option>
+                    <option value="2">15</option>
+                    <option value="3">16</option>
+                    <option value="3">17</option>
+                    <option value="4">18</option>
+                    <option value="4">19</option>
+                    <option value="5">20</option>
+                    <option value="5">21</option>
+                    <option value="6">22</option>
+                    <option value="6">23</option>
+                    <option value="7">24</option>
+                    <option value="7">25</option>
+                    <option value="8">26</option>
+                    <option value="8">27</option>
+                    <option value="9">28</option>
+                    <option value="9">29</option>
+                    <option value="10">30</option>
+                  </select>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container-fluid containerBuffer">
+        <button type="button" class="btn btn-outline-danger attackButton" onclick="showResults()">Atack!</button>
+      </div>
+ 
+
+
+
+    <div class="container-fluid">
+      <div class="resultsArea">
+        <h2>Attack Roll</h2>
+        <p class="results" id="results">0</p>
+        <h2>damage Roll</h2>
+        <p class="damage" id="damage">0</p>
+      </div>
+    </div>
+  </main>
+  <!-- <footer>
+
+  </footer> -->
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+<script src="script.js"></script>
+
+</html>

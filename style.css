@@ -1,0 +1,49 @@
+body {
+    background-image: url('background.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.buttonStyle {
+    height: 75px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.buttonStyle:active {
+    background-color: red;
+}
+
+.containerBuffer {
+    margin: 5px;
+}
+
+.almostFill {
+    width: 90%;
+}
+
+.selectContainer {
+    width: 90%;
+}
+
+.attackButton {
+    height: 75px;
+    text-align: center;
+    padding: 25px 0;
+    width: 96.7%;
+}
+
+.resultsArea {
+    padding: 100px;
+    text-align: center;
+}
+
+
+.resultsArea > * {
+    padding: 20px 20px;
+}
+
+.resultsArea > p {
+    font-size: xx-large;
+}
